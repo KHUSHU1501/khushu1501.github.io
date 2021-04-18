@@ -1,0 +1,15 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+ .required
+ {
+     color: red;
+ }
+
+ #addObservationForm{
+     font-weight: 500;
+ }
+
+ #addObservationForm input{
+    font-weight: 500;
+}
