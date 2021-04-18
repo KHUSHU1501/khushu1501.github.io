@@ -17,13 +17,13 @@ function validate(event) {
   if(isNaN(long) || long > 180 || long < -180)
   {
     longError.innerText = "* must be a valid Longitude (-180 to 180)";
-    return valid;
+    valid = false;
   }
   else  longError.innerText = "*";
   if(isNaN(lat) || lat > 90 || lat < -90)
   {
     latError.innerText = "* must be a valid Latitude (-90 to 90)";
-    return valid;
+    valid = false;
   }
   else  latError.innerText = "*";
 
